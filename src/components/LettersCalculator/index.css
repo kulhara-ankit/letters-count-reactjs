@@ -1,0 +1,93 @@
+/* Write your code here. */
+/* Write your code here. */
+body {
+  box-sizing: border-box;
+  margin: 0px;
+}
+/* .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  padding: 20px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 22px; */
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.input-phrases {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.heading {
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-family: 'Roboto';
+  flex-wrap: wrap;
+}
+.label {
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 10pxs;
+}
+.image {
+  width: 30vw;
+  height: 50vh;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #1d976c;
+  border-radius: 10px;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.letters-input {
+  background-color: #1d976c;
+  color: #ffffff;
+  padding: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 20px;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 10px;
+  border-style: none;
+  height: 5vh;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    order: 1;
+    align-items: center;
+  }
+}
